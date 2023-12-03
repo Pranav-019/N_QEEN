@@ -130,7 +130,7 @@ def solve_button_click():
     # Draw all possible solutions
     for i, board in enumerate(queens_positions):
         draw_board(canvas, board)
-        canvas.create_text((300, 30 * (i + 1)), text=f"Solution {i + 1}", font=("Arial", 12))
+        canvas.create_text((300, 30 * (i + 1)),font=("Arial", 12))
 
 window = tk.Tk()
 window.title("N-N-Queens Problem")
